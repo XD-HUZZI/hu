@@ -1,0 +1,503 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 90px;
+    color: rgb(59, 130, 246);
+    padding-top: 30px;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.904);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    
+    width: 50%;
+    
+}
+.logo img{
+    width: 400px;
+    padding-left: 35%;
+}
+.nav{
+    /* display: inline; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+
+    
+}
+.class6{
+    color: rgb(58, 58, 245);
+}
+
+.top-content{
+    height: 160px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 80px;
+    font-size: 45px;
+    color: rgb(59, 130, 246);
+    
+}
+.center-content{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-bar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input{
+    height: 80%;
+    width:450px;
+}
+
+.jobs{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+.button{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+    /* align-items: center */
+    margin-top: 15px;
+    border: 2px solid; 
+    border-radius:50px ;
+    
+}
+
+.jobs p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.two-words{
+    background-color: black;
+    color: rgb(59, 130, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.bottom{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.bottom button{
+    border: 2px solid;
+    height: 32px;
+    width: 90px;
+    border-radius: 8px;
+    gap: 20px;
+    background-color: transparent;
+    color: rgb(59, 130, 246);
+    /* background-color: none; */
+}
+
+.bottom-two{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    height: 45px;
+}
+
+.bottom-two button{
+    /* margin-top: 50px; */
+    border: 2px solid;
+    height: 32px;
+    width: 90px;
+    border-radius: 8px;
+    gap: 20px;
+    background-color: transparent;
+    color: rgb(59, 130, 246);
+}
+
+.man{
+    background-image: url(./art\ work-df4f7a46\ \(1\).png);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+}
+
+.hired{
+    height: 240px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top:180px ;
+    font-size: 45px;
+    gap: 10px;
+}
+
+.steps{
+color: blue;
+
+}
+
+
+.quickest{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 18.5px;
+}
+
+.four-boxes{
+    height: 310px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 20px;
+    /* border-radius: 50px; */
+}
+
+.box1,.box2,.box3,.box4 {
+    height: 220px;
+    width: 275px;
+    color: white;
+    border: 2px solid ;
+    border-radius: 25px;
+    /* background-color: white; */
+}
+
+.account{
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ font-size: 25px;
+ color: blue;
+}
+
+.community{
+
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 10px 10px;
+    font-size: 20px;
+}
+
+.dream-job{
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 1%; */
+    color: white;
+    padding-top: 170px;
+    font-size: 50px;
+    gap: 10px;
+}
+
+.super{
+    color: blue;
+}
+
+.opportunities{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+}
+
+.people{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+
+}
+
+.cartoons{
+    background-image: url(./banner_career-4b7d86fb.webp);
+    background-size: cover;
+    height: 270px;
+    width: 100%;
+    background-color: black;
+    /* padding-top: 40px; */
+
+}
+
+.option{
+    height: 370px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.career{
+    height: 280px;
+    width: 100%;
+    color: white;
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.boxes-eight{
+    height: 260px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* border-radius: 20px; */
+}
+
+.box5 ,.box6 ,.box7 ,.box8{
+height: 220px;
+width: 280px;
+border: 2px solid ;
+color: white;
+border-radius: 20px;
+
+/* gap: 20px; */
+/* display: flex; */
+}
+
+.boxes-after{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+
+.box9 ,.box10 ,.box11 ,.box12{
+    /* display: flex;
+    justify-content: center; */
+    height: 220px;
+    width: 280px;
+    border: 2px solid ;
+    color: white;
+    border-radius: 20px;
+      
+}
+
+.box5 ,.box6 ,.box7 ,.box8,  .box9 ,.box10 ,.box11 ,.box12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(59, 130, 246);
+}
+
+/* .box5 i{
+    display: flex;
+    justify-content: center;
+} */
+
+.latest{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: rgb(59, 130, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 10px;
+}
+
+.job{
+    color:white;
+}
+
+.boxes-six{
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    /* color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 35px;
+
+
+}
+
+.box13 ,.box14 ,.box15 {
+    height: 250px;
+    width: 375px;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    /* gap: 20px; */
+}
+
+.box-six{
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.boxes-six p{
+    color: white;
+    padding: 30px 0px 0px 20px;
+    font-size: 17px;
+}
+
+.salary{
+padding: 10px 0px 0px 20px;
+font-size: 17px;
+color: blue;
+}
+
+.views{
+    padding-left: 300px;
+    /* padding-bottom: 50px; */
+}
+
+.box-six p{
+    color: white;
+    padding: 30px 0px 0px 20px;
+    font-size: 17px; 
+}
+
+.logo-two{
+    height: 420px;
+    width: 100%;
+    background-color: black;
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+.logo-1{
+    
+    background-image: url(./Frame-55f66875.png);
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  /* background-color: black; */
+}
+
+.logo-2{
+  background-image: url(./Layer_1-ab8fadbb.png);
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  /* text-align: ; */
+
+}
+
+.last{
+    height: 80px;
+    width: 100%;
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     font-size: 30px;
+     text-align: center;
+}
+
+.coming{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.coming button{
+    height: 50px;
+    width: 130px;
+    border: 2px solid;
+    border-color: rgb(59, 130, 246);
+    border-radius: 50px;
+    font-size: 17px;
+    color: rgb(59, 130, 246);
+    background-color: transparent;
+}
+
+
